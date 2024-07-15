@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* <!-- ------------------------------header------------------------------ --> */
+
+
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 150px;
+}
+
+.hamb{
+    font-size: 23px;
+}
+
+.btn{
+    padding: 25px 30px;
+    border: 1px solid rgb(219, 214, 214);
+    background-color: white;
+    font-size: 14px;
+}
+
+.sec_header{
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(219, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* <!-- ------------------------------main-------------------------------------- --> */
+
+.main{
+    margin-top: 30px;
+    /* background-color: red; */
+    height: auto;
+    width: 100%;
+}
+
+.container{
+    height: auto;
+    width: 85%;
+    /* background-color: green; */
+    column-gap: 50px;
+}
+
+.left{
+    height: 500px;
+    width: 30%;
+    /* background-color: blue; */
+
+}
+
+.bttn{
+    padding:10px;
+    border: 1px solid rgb(219, 214, 214);
+    border-radius: 30px;
+}
+
+.main_tittle{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.main_blank{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+.content{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.main_image{
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* /<!-- ---------------------cards-------------------------------------------- --> */
+
+
+.cards{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    margin-top:20px ;
+}
+
+.card_container{
+    height: 400px;
+    width: 80%;
+    /* background-color: green; */
+    column-gap: 20px;
+}
+
+.card{
+    height: 400px;
+    width: 33%;
+    /* background-color: blue; */
+    border-radius: 10px;
+
+}
+
+.card_image{
+    height: 70%;
+    width: 100%;
+
+}
+
+.card_title{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(217, 214, 214);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* <!-- ----------------------------------editors-------------------------------------- --> */
+
+.card_editor{
+    width: 25%;
+}
+
+.cont{
+    flex-direction: column;
+}
+
+.editor_container{
+    column-gap: 30px;
+}
+
+.cards_title{
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    column-gap: 40px;
+    margin-bottom: 20px;
+    /* margin-left: -900px; */
+}
+
+
+.ele_image{
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.back_image{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.ele_content{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    border-radius: 10px;
+    padding: 50px;display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.heading{
+    font-size: 28px;
+}
+
+
+
+/* <!-- ------------------------staff writter------------------------------------ --> */
+
+.staff{
+    margin-top: 00px;
+    flex-direction: column;
+}
+
+.staff_card{
+
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.staff_image{
+    height: 80%;
+    width: 90%;
+}
+
+.stf{
+
+}

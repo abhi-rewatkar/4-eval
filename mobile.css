@@ -1,0 +1,70 @@
+@media (max-width:425px) {
+
+        
+    .header{
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sec_header{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+        
+    }
+
+    .hamb{
+        display: none;
+    }
+
+    .main_image{
+        height: 200px;
+        width: 90%;
+    }
+    .container{
+
+        flex-direction: column-reverse;
+    }
+    .left{
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+        /* background-color: blue; */
+    
+    }
+
+    .main_tittle{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .main_blank{
+        display: none;
+    }
+
+    .card_container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card{
+        height: auto;
+        width: 90%;
+        margin-top: 20px;
+    
+    }
+    .cards{
+        margin-top: 400px;
+    }
+    
+
+    .editor_container{
+        flex-direction: column;
+        margin-top: 1500px;
+    }
+
+}
